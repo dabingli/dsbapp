@@ -1,0 +1,83 @@
+page {
+  background: #F6F6F5;
+}
+.list {
+  margin: 14rpx 0 10rpx;
+}
+.list .head {
+  padding: 12rpx 0 12rpx 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #fff;
+  border-bottom: 2rpx solid #F6F6F5;
+}
+.list .head .title {
+  font-size: 32rpx;
+  color: #ACACAB;
+  padding: 28rpx 0;
+}
+.list .head .img {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.list .head .img image {
+  width: 86rpx;
+  height: 86rpx;
+  border-radius: 50%;
+}
+.list .head .img .icon-youjiantou {
+  font-size: 60rpx;
+  color: #D4D8DE;
+  padding-top: 12rpx;
+}
+.list .item {
+  padding: 40rpx 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #fff;
+  border-bottom: 2rpx solid #F6F6F5;
+}
+.list .item .title {
+  font-size: 32rpx;
+  color: #ACACAB;
+}
+.list .item .text {
+  color: #474A4D;
+  font-size: 32rpx;
+}
+.rate .item {
+  padding: 40rpx 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #fff;
+  border-bottom: 2rpx solid #F6F6F5;
+}
+.rate .item .title {
+  font-size: 32rpx;
+  color: #ACACAB;
+}
+.rate .item .text {
+  color: #474A4D;
+  font-size: 32rpx;
+}
+

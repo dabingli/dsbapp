@@ -1,0 +1,31 @@
+page {
+  background: #F3F6FA;
+}
+.setting .card-group {
+  margin-top: 10rpx;
+  background: #fff;
+}
+.setting .card-group .item {
+  padding: 20rpx 30rpx;
+  border-bottom: 1px solid #f2f2f2;
+}
+.setting .card-group .item .icon-youjiantou {
+  margin-right: 0;
+  color: #D4D8DE;
+  font-size: 40rpx;
+}
+.setting .card-group .item .item-name {
+  font-size: 30rpx;
+}
+.setting .main-btn {
+  background: #989898;
+  position: absolute;
+  bottom: 80rpx;
+  width: 90%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  margin: 0;
+}
+

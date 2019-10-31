@@ -1,0 +1,49 @@
+page {
+  background: #fff;
+}
+.share {
+  background: #fff;
+}
+.share .big-img {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+.share .big-img image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -400rpx 0 0 -250rpx;
+  width: 500rpx;
+  height: 800rpx;
+}
+.share .small-img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  white-space: nowrap;
+  height: 300rpx;
+  text-align: center;
+  background: #fff;
+}
+.share .small-img .mask {
+  height: 100%;
+  width: 100%;
+}
+.share .item {
+  width: 140rpx;
+  height: 260rpx;
+  margin: 20rpx 0rpx 0rpx 40rpx;
+  opacity: 0.5;
+}
+.share .item:last-child {
+  margin-right: 40rpx;
+}
+.share .sectionView {
+  background: rgba(0, 0, 0, 0.4);
+}
+.share .item-active {
+  opacity: 1;
+}
+

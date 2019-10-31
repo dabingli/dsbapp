@@ -1,0 +1,79 @@
+.card_list {
+  border-top: 12rpx solid #F6F6F5;
+  border-bottom: 10rpx solid #F6F6F5;
+}
+.card_list .item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-top: 2rpx solid #F6F6F5;
+  background: #fff;
+  padding: 40rpx 30rpx;
+}
+.card_list .item .name {
+  font-size: 32rpx;
+  color: #ACACAB;
+}
+.card_list .item .data {
+  font-size: 32rpx;
+  color: #3D3B38;
+}
+.consumption_list {
+  background: #fff;
+}
+.consumption_list .type {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 32rpx 0;
+}
+.consumption_list .type .text {
+  width: 15%;
+  text-align: center;
+  font-size: 26rpx;
+  color: #3D3B38;
+}
+.consumption_list .type .charge {
+  width: 20%;
+  text-align: center;
+  font-size: 26rpx;
+  color: #3D3B38;
+}
+.consumption_list .type .title {
+  width: 35%;
+  text-align: center;
+  font-size: 26rpx;
+  color: #3D3B38;
+}
+.consumption_list .type_data {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10rpx 0;
+}
+.consumption_list .type_data .text_data {
+  width: 15%;
+  text-align: center;
+  font-size: 26rpx;
+  color: #ACACAB;
+}
+.consumption_list .type_data .charge_data {
+  width: 20%;
+  text-align: center;
+  font-size: 26rpx;
+  color: #ACACAB;
+}
+.consumption_list .type_data .title_data {
+  width: 35%;
+  text-align: center;
+  font-size: 26rpx;
+  color: #ACACAB;
+}
+

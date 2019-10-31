@@ -1,0 +1,1 @@
+<view class="message-detail"><view class="title">{{list.title}}</view><view class="time">{{list.time}}</view><view class="desc">{{list.description}}</view><rich-text class="content" nodes="{{content}}"></rich-text></view>

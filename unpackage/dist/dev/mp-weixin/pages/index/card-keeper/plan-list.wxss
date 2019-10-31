@@ -1,0 +1,116 @@
+page {
+  background: #F6F6F5;
+}
+.bar {
+  margin-top: 11rpx;
+  padding: 24rpx 30rpx 30rpx;
+  background: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1rpx;
+}
+.bar .screen_font {
+  color: #333333;
+  width: 50%;
+  text-align: center;
+  font-size: 28rpx;
+}
+.bar .screen_font .icon-arrowdown {
+  margin-left: 14rpx;
+}
+.deal {
+  padding: 34rpx 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.deal .deal_money {
+  padding: 0 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 26rpx;
+}
+.deal .deal_money .title {
+  color: #989898;
+  margin-right: 10rpx;
+}
+.deal .deal_money .num {
+  color: #FF6A30;
+}
+.deal .deal_num {
+  padding: 0 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.deal .deal_num .title {
+  color: #989898;
+  margin-right: 16rpx;
+}
+.deal .deal_num .num {
+  color: #FF6A30;
+}
+.item {
+  padding: 33rpx 30rpx 26rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: #fff;
+}
+.item .icon-jingzhun {
+  font-size: 45rpx;
+  margin: auto 0;
+  color: #ACACAB;
+}
+.item .data {
+  width: 100%;
+  margin-left: 30rpx;
+}
+.item .data .up {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20rpx;
+}
+.item .data .up .bank {
+  line-height: 1;
+  color: #474A4D;
+  font-size: 26rpx;
+  font-weight: 500;
+}
+.item .data .up .num {
+  line-height: 1;
+  color: #474A4D;
+  font-size: 26rpx;
+}
+.item .data .down {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.item .data .down .time {
+  color: #989898;
+  font-size: 22rpx;
+}
+.item .data .down .state {
+  font-size: 26rpx;
+  color: #989898;
+}
+

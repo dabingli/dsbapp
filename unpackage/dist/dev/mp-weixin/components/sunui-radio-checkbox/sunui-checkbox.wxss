@@ -1,0 +1,111 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 	
+	sunui-chekcbox-label
+	这里修改成你需要的样式,譬如边框,背景颜色(Step.1)
+*/
+.sunui-chekcbox-label.data-v-7bd3b2a4 {
+	font-size: .7em;
+	height: 30rpx;
+	line-height: 30rpx;
+	padding: 2.5%;
+	margin: 12rpx;
+	text-align: center;
+	background-color: #eee;
+	border-radius: 5rpx;
+	width: 50%;
+}
+.sunui-checkbox-group.data-v-7bd3b2a4 {
+	width: 100vw;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+			display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+/* 
+	sunui-checkbox-checkd
+	这里修改成你需要的样式,譬如激活边框以及背景颜色(Step.2)
+ */
+.sunui-checkbox-checkd.data-v-7bd3b2a4 {
+	color: #fff;
+	background-color: #00C777;
+}
+.sunui-checkbox-group checkbox.data-v-7bd3b2a4 {
+	display: none;
+}
+.sunui-checkbox-group.data-v-7bd3b2a4 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	width: 100vw;
+}
+

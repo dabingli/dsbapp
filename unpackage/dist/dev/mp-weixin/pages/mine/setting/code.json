@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "验证码",
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "uni-in": "/components/uiOneInput"
+  }
+}

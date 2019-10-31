@@ -1,0 +1,58 @@
+page {
+  padding-bottom: 160rpx;
+  background: #f8f8f8;
+}
+.choose-card .uni-list {
+  border-top: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
+}
+.choose-card .card-list {
+  padding: 20rpx 30rpx;
+}
+.choose-card .card-list .flex-class {
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+.choose-card .card-list .flex-class image {
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 50%;
+  margin-right: 20rpx;
+}
+.choose-card .op {
+  z-index: 998;
+  background: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid #f2f2f2;
+  padding: 20rpx 0;
+}
+.choose-card .op .btn {
+  background: #ff6a30;
+  color: #fff;
+  height: 80rpx;
+  line-height: 80rpx;
+  margin: 0 30rpx;
+  border-radius: 10px;
+}
+.choose-card .add-card {
+  background: #fff;
+  border-top: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 20rpx 30rpx;
+  margin: 20rpx 0;
+}
+.choose-card .add-card .text {
+  margin-left: 20rpx;
+}
+.choose-card .add-card .iconfont {
+  font-size: 32rpx;
+}
+

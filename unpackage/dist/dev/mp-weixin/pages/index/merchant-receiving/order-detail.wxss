@@ -1,0 +1,73 @@
+page {
+  background: #f8f8f8;
+}
+.order-detail .item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30rpx 30rpx;
+  border-bottom: 1px solid #f2f2f2;
+  background: #fff;
+}
+.order-detail .item .label {
+  min-width: 160rpx;
+}
+.order-detail .main-btn {
+  background: #ff6a30;
+  margin-top: 40rpx;
+}
+.order-detail .mask-code {
+  position: absolute;
+  z-index: 999;
+  background: rgba(0, 0, 0, 0.7);
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.order-detail .mask-code .popup {
+  background: #fff;
+  border-radius: 10rpx;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 80%;
+  overflow: hidden;
+}
+.order-detail .mask-code .popup input {
+  width: 100%;
+  padding: 20rpx 0;
+  border-bottom: 1px solid #f2f2f2;
+  font-size: 32rpx;
+}
+.order-detail .mask-code .popup .title {
+  padding: 20rpx 0;
+  color: #333;
+  font-size: 32rpx;
+  border-bottom: 1px solid #f2f2f2;
+}
+.order-detail .mask-code .popup .op {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.order-detail .mask-code .popup .op button {
+  width: 50%;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 32rpx;
+}
+.order-detail .mask-code .popup .op button:first-child {
+  border-right: 1px solid #ccc;
+}
+

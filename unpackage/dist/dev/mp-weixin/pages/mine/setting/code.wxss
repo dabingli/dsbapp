@@ -1,0 +1,64 @@
+.top {
+  padding: 52px 0;
+  border-top: 3px solid #f1f3f6;
+}
+.top .title {
+  border-left: 2px solid #549cff;
+  color: #333333;
+  font-size: 21px;
+  font-weight: 500;
+  padding-left: 15px;
+}
+.top .message {
+  padding-left: 17px;
+  font-size: 12px;
+  color: #989898;
+  margin-top: 12px;
+}
+.code {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px 35px 17px;
+}
+.code input {
+  width: 35px;
+  height: 38px;
+  line-height: 40rpx;
+  border: none;
+  border-bottom: 1px solid #dfe0e3;
+  text-align: center;
+  color: #333333;
+  font-weight: 500;
+  font-size: 21px;
+}
+.idens {
+  color: #989898;
+  font-size: 12px;
+  text-align: center;
+}
+.idens .blue {
+  color: #5199ff;
+}
+.main-btn {
+  position: absolute;
+  bottom: 80rpx;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 90%;
+  margin: 0;
+  text-align: center;
+}
+

@@ -1,0 +1,137 @@
+.bar_title{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 99;
+  background: #fff;
+}
+
+.margin-content{
+  margin-top: 85px;
+}
+
+.refresh-box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.refresh{
+  text-align: center;
+  color: #0081ff;
+}
+button::before{
+	/* display: none; */
+}
+button::after{
+	/* display: none; */
+	border-width: 0;
+}
+button{
+	line-height: 1;
+	border-radius: 0rpx;
+}
+.flex-class{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+checkbox .wx-checkbox-input{
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+}
+checkbox .wx-checkbox-input.wx-checkbox-input-checkbox{
+  width: 18px;
+  height: 18px;
+}
+checkbox .wx-checkbox-input.wx-checkbox-input-checked{
+  color: #fff;
+  background: #558DF3;
+  border-radius: 50%;
+}
+checkbox .uni-checkbox-input.uni-checkbox-input-checked{
+  color: #fff;
+  background: #558DF3;
+  border-radius: 50%;
+}
+checkbox .wx-checkbox-input.wx-checkbox-input-checked::before{
+  color: #fff;
+  background: #558DF3;
+  border-radius: 50%;
+}
+checkbox .uni-checkbox-input.uni-checkbox-input-checked::before{
+  color: #fff;
+  background: #558DF3;
+  border-radius: 50%;
+}
+
+/* swtich整体大小 */
+.wx-switch-input{
+  width: 80rpx !important;
+  height: 38rpx !important;
+}
+/* false的样式 */
+.wx-switch-input::before{
+  width: 76rpx !important;
+  height: 34rpx !important;
+}
+/* true的样式 */
+.wx-switch-input::after{
+  width: 38rpx !important;
+  height: 34rpx !important;
+  color: yellow;
+}
+
+.input-placeholder{
+  color: #D5D8DD;
+  font-size: 28rpx;
+}
+
+.main-btn{
+  border: none;
+  background-color: #558DF3;
+  color: #fff;
+  border-radius: 14rpx;
+  margin: 0 30rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 36rpx;
+}
+
+.p_class{
+  font-size: 28rpx;
+}
+.img_class{
+  max-width: 100% !important;
+}
+
+
+
+radio{
+  border-radius: 50%;
+  width: 40rpx;/* 最好是4的倍数，不然会不在中间 */
+  height: 40rpx;
+  background: #D4D8DE;
+  border: 2rpx solid #D4D8DE;/* 设置边框（外圆） */
+  font-size: 0;/* 让边框重合 */
+}
+radio .wx-radio-input{
+   border-radius: 50%;
+   width: 40rpx;
+   height: 40rpx; 
+   border: none;/* 替换边框（隐藏原有边框） */
+   background: #D4D8DE;
+}
+radio .wx-radio-input.wx-radio-input-checked::before{
+  font-size: 28rpx;
+}
+
+.no-data-tips{
+  text-align: center;
+  color: #ccc;
+  padding: 30rpx 0;
+}

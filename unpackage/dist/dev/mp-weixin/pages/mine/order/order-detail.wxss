@@ -1,0 +1,241 @@
+page {
+  background: #F2F4F7;
+}
+.address {
+  margin-top: 11rpx;
+  padding: 28rpx 30rpx 22rpx 30rpx;
+  background: #fff;
+  border-bottom: 2rpx solid #F2F4F7;
+}
+.address .customer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 22rpx;
+}
+.address .customer .name {
+  margin-right: 30rpx;
+  color: #474A4D;
+  font-size: 26rpx;
+}
+.address .customer .mobile {
+  color: #474A4D;
+  font-size: 26rpx;
+}
+.address .adress_text {
+  color: #989898;
+  font-size: 26rpx;
+}
+.state {
+  padding: 26rpx 33rpx;
+  background: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10rpx;
+}
+.state .state_title {
+  color: #989898;
+  font-size: 26rpx;
+  margin-right: 10rpx;
+}
+.state .state_text {
+  color: #F3632A;
+  font-size: 26rpx;
+}
+.productInfo {
+  background: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 26rpx 30rpx;
+  border-bottom: 2rpx solid #F2F4F7;
+}
+.productInfo .icon-setting {
+  color: #474A4D;
+}
+.productInfo .product_title {
+  color: #474A4D;
+  font-size: 28rpx;
+  margin-left: 17rpx;
+}
+.message {
+  background: #fff;
+}
+.message .content {
+  padding: 28rpx 0;
+  margin: 0 30rpx;
+  color: #ccc;
+  font-size: 12px;
+  padding: 29rpx 0;
+  border-bottom: 2rpx solid #F3F6FA;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.message .content .img {
+  width: 142rpx;
+  height: 132rpx;
+}
+.message .content .font {
+  width: 100%;
+  margin-left: 27rpx;
+  padding: 12rpx 0;
+}
+.message .content .font .text {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 28rpx;
+  color: #474A4D;
+  padding-bottom: 40rpx;
+}
+.message .content .font .coupon {
+  float: left;
+  color: #F3632A;
+  font-size: 32rpx;
+  line-height: 1;
+}
+.message .content .font .clear {
+  clear: both;
+}
+.total {
+  background: #fff;
+  border-bottom: 2rpx solid #EEEEEE;
+  padding: 19rpx 30rpx 25rpx 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.total .data {
+  color: #989898;
+  font-size: 26rpx;
+}
+.total .num {
+  color: #F3632A;
+  font-size: 26rpx;
+  margin-left: 10rpx;
+}
+.order {
+  margin-top: 10rpx;
+  border-bottom: 2rpx solid #EEEEEE;
+}
+.order .item {
+  padding: 32rpx 30rpx;
+  background: #fff;
+  border-bottom: 2rpx solid #F3F6FA;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.order .item .item_text {
+  font-size: 26rpx;
+  color: #989898;
+}
+.order .item .item_data {
+  font-size: 26rpx;
+  color: #474A4D;
+}
+.order .remark {
+  padding: 32rpx 30rpx;
+  background: #fff;
+  border-bottom: 2rpx solid #F3F6FA;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin-bottom: 80rpx;
+}
+.order .remark .remark_text {
+  font-size: 26rpx;
+  color: #989898;
+  padding-right: 10rpx;
+}
+.order .remark .remark_data {
+  font-size: 26rpx;
+  color: #474A4D;
+}
+.textarea {
+  background: #fff;
+  width: auto;
+  height: 70rpx;
+  padding: 30rpx 30rpx 0;
+}
+.input {
+  text-align: right;
+  padding: 0 30rpx 30rpx;
+  background: #fff;
+  color: #D5D8DD;
+  font-size: 26rpx;
+  margin-bottom: 70rpx;
+}
+.pay {
+  border: 2rpx solid #EEEEEE;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 99;
+}
+.pay .pay_text {
+  padding: 43rpx 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #fff;
+  width: 60%;
+}
+.pay .pay_text .pay_data {
+  padding-top: 4rpx;
+  color: #AFB2B6;
+  font-size: 28rpx;
+}
+.pay .pay_text .pay_num {
+  color: #474A4D;
+  font-size: 32rpx;
+  font-weight: 500;
+  margin-left: 10rpx;
+}
+.pay .btn {
+  width: 40%;
+  background: #F3632A;
+  text-align: center;
+  padding: 40rpx 0;
+}
+.pay .btn button {
+  background: #F3632A;
+  color: #fff;
+  font-size: 42rpx;
+  font-weight: 500;
+}
+

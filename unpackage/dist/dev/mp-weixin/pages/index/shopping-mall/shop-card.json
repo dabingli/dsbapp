@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "购物车",
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "number-box": "/components/uni-number-box/uni-number-box",
+    "uni-loadmore": "/components/uni-load-more/uni-load-more"
+  }
+}

@@ -1,0 +1,82 @@
+page {
+  background: #F6F6F5;
+}
+.head {
+  margin: 10rpx 0;
+  padding: 20rpx 30rpx;
+  background: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.head .img {
+  line-height: 1;
+}
+.head .img image {
+  width: 86rpx;
+  height: 86rpx;
+  border-radius: 50%;
+  margin-right: 26rpx;
+}
+.head .message {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.head .message .left .top {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 9rpx 0;
+}
+.head .message .left .top .name {
+  font-size: 32rpx;
+  color: #474A4D;
+}
+.head .message .left .top .authentication {
+  font-size: 28rpx;
+  color: #ACACAB;
+  margin: auto 16rpx;
+}
+.head .message .left .phone {
+  font-size: 22rpx;
+  color: #989898;
+}
+.head .message .icon-dianhua {
+  color: #558DF3;
+  font-size: 46rpx;
+  margin: auto 0;
+}
+.list {
+  margin-bottom: 10rpx;
+  background: #fff;
+}
+.list .item {
+  border-bottom: 1rpx solid #F6F6F5;
+  padding: 40rpx 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.list .item .title {
+  font-size: 32rpx;
+  color: #ACACAB;
+}
+.list .item .text {
+  font-size: 32rpx;
+  color: #474A4D;
+}
+

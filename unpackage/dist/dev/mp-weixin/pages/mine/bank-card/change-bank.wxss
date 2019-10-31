@@ -1,0 +1,127 @@
+page {
+  background: #F2F4F7;
+}
+.change-bank .real {
+  background: #fff;
+  padding: 0 30rpx;
+  margin-bottom: 10rpx;
+  border-top: 14rpx solid #F1F3F6;
+}
+.change-bank .real .item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #F2F4F7;
+  padding: 30rpx 0;
+  color: #333333;
+}
+.change-bank .real .item .title {
+  line-height: 1;
+  width: 25%;
+  font-size: 32rpx;
+  color: #333333;
+  padding-top: 10rpx;
+}
+.change-bank .real .item input {
+  width: 75%;
+  line-height: 1;
+  font-size: 32rpx;
+  color: #474A4D;
+  text-align: right;
+}
+.change-bank .bank {
+  background: #fff;
+  border-bottom: 1px solid #F2F4F7;
+  padding: 0 30rpx;
+}
+.change-bank .bank .item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 30rpx 0;
+  border-bottom: 1px solid #F2F4F7;
+}
+.change-bank .bank .item .title {
+  line-height: 1;
+  width: 25%;
+  font-size: 32rpx;
+  color: #333333;
+  padding-top: 10rpx;
+}
+.change-bank .bank .item input {
+  width: 75%;
+  line-height: 1;
+  font-size: 32rpx;
+  color: #474A4D;
+}
+.change-bank .bank .item .uni-list-cell-db {
+  font-size: 32rpx;
+  padding-top: 5px;
+}
+.change-bank .bank .phone {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30rpx 0;
+}
+.change-bank .bank .phone .title {
+  line-height: 1;
+  width: 25%;
+  font-size: 32rpx;
+  color: #333333;
+  padding-top: 10rpx;
+}
+.change-bank .bank .phone input {
+  width: 45%;
+  line-height: 1;
+  font-size: 32rpx;
+  color: #474A4D;
+}
+.change-bank .bank .phone .code {
+  padding: 12rpx 16rpx;
+  border-radius: 24px;
+  background: #549cff;
+  color: #fff;
+  font-size: 24rpx;
+}
+.change-bank .bottom {
+  position: absolute;
+  bottom: 81rpx;
+  width: 100%;
+}
+.change-bank .bottom .btn {
+  margin: 0 30rpx;
+  padding: 24rpx 0;
+  font-size: 38rpx;
+  color: #fff;
+  border-radius: 12rpx;
+  text-align: center;
+  background: #FF6A30;
+  line-height: 1;
+}
+.change-bank button[disabled]:not([type]) {
+  color: #fff;
+  background-color: #FF6A30;
+  opacity: 0.8;
+}
+.change-bank .input-placeholder {
+  font-size: 32rpx;
+}
+

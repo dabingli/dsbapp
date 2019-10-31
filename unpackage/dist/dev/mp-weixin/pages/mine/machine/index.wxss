@@ -1,0 +1,167 @@
+page {
+  background: #f6f6f5;
+}
+.top {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  border-top: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
+}
+.top .item {
+  width: 100%;
+}
+.top .bar {
+  background: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.top .bar .select {
+  padding: 24rpx 0 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.top .bar .select .text {
+  margin-right: 12rpx;
+  font-size: 28rpx;
+  color: #3d3b38;
+}
+.deal {
+  margin-top: 86rpx;
+  padding: 20rpx 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.deal .deal_money {
+  padding: 0 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 26rpx;
+}
+.deal .deal_money .title {
+  color: #989898;
+  margin-right: 10rpx;
+}
+.deal .deal_money .num {
+  color: #ff6a30;
+}
+.deal .deal_num {
+  padding: 0 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.deal .deal_num .title {
+  color: #989898;
+  margin-right: 16rpx;
+}
+.deal .deal_num .num {
+  color: #ff6a30;
+}
+.list {
+  background: #fff;
+  padding: 0 30rpx;
+}
+.list .item {
+  padding: 30rpx 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 2rpx solid #f1f0f0;
+}
+.list .item .icon-setting {
+  font-size: 40rpx;
+  padding-top: 8rpx;
+}
+.list .item .data {
+  margin-left: 19rpx;
+  width: 100%;
+}
+.list .item .data .card {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 10rpx;
+}
+.list .item .data .card .card_text {
+  font-size: 24rpx;
+  color: #3d3b38;
+  line-height: 1;
+}
+.list .item .data .card .card_num {
+  color: #424242;
+  font-size: 28rpx;
+  line-height: 1;
+}
+.list .item .data .card_state {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.list .item .data .card_state .card_type {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.list .item .data .card_state .card_type .type {
+  color: #989898;
+  font-size: 20rpx;
+  margin-right: 19rpx;
+}
+.list .item .data .card_state .card_type .time {
+  color: #989898;
+  font-size: 20rpx;
+}
+.list .item .data .card_state .state {
+  color: #3d3b38;
+  font-size: 22rpx;
+}
+.picker-vie {
+  background: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  padding: 20rpx 0;
+}
+.picker-vie .iconfont {
+  font-size: 24rpx;
+  margin-left: 20rpx;
+}
+

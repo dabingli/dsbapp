@@ -1,0 +1,242 @@
+page {
+  background: #F6F6F5;
+}
+.bar {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background: #fff;
+  text-align: center;
+}
+.bar .money {
+  font-size: 62rpx;
+  font-weight: bold;
+  line-height: 1;
+  color: #FF6A30;
+  padding: 90rpx 0 26rpx;
+}
+.bar .money_text {
+  font-size: 28rpx;
+  color: #3D3B38;
+  padding-bottom: 20rpx;
+}
+.bar .withdrawal {
+  border-radius: 40rpx 0px 0px 40rpx;
+  margin-bottom: 40rpx;
+  padding: 10rpx 26rpx;
+  background: #FF6A30;
+  color: #fff;
+  font-size: 24rpx;
+  float: right;
+  line-height: 1;
+}
+.bar .clear {
+  clear: both;
+}
+.bar .all {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 34rpx 0 32rpx;
+}
+.bar .all .income,
+.bar .all .expenditure {
+  width: 50%;
+  text-align: center;
+  color: #fff;
+}
+.bar .all .income .data,
+.bar .all .expenditure .data {
+  font-size: 32rpx;
+  padding-bottom: 14rpx;
+  font-weight: 500;
+  color: #3D3B38;
+}
+.bar .all .income .title,
+.bar .all .expenditure .title {
+  font-size: 26rpx;
+  color: #A9ACB1;
+}
+.position {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 458rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  z-index: 99;
+}
+.position .dropdown {
+  padding: 22rpx 0 18rpx;
+  background: #fff;
+  border-bottom: 1rpx solid #F6F6F5;
+}
+.position .dropdown .sel {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.position .dropdown .sel .sel_item {
+  width: 50%;
+  color: #424242;
+  font-size: 28rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.position .dropdown .sel .date {
+  border-left: 2rpx solid #CCCCCC;
+}
+.position .dropdown .sel .icon-arrowdown {
+  color: #424242;
+  font-size: 24rpx;
+  padding-left: 6rpx;
+}
+.position .notice {
+  padding: 20rpx 56rpx 18rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: #fff;
+}
+.position .notice .income_month {
+  font-size: 22rpx;
+  color: #A0A0A0;
+}
+.position .notice .expenditure_month {
+  font-size: 22rpx;
+  color: #A0A0A0;
+  padding-left: 56rpx;
+}
+.margin-content {
+  margin-top: 621rpx;
+  background: #fff;
+}
+.margin-content .list {
+  margin: 0 30rpx;
+  padding: 30rpx 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 2rpx solid #F6F6F5;
+}
+.margin-content .list .icon {
+  padding-right: 20rpx;
+  margin: auto 0;
+  color: #ACACAB;
+  font-size: 40rpx;
+}
+.margin-content .list .icont {
+  padding-right: 10rpx;
+  margin: auto 0;
+  color: #ACACAB;
+  font-size: 40rpx;
+}
+.margin-content .list .data {
+  width: 100%;
+}
+.margin-content .list .data .top {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  line-height: 1;
+  padding-bottom: 10rpx;
+}
+.margin-content .list .data .top .card {
+  font-size: 24rpx;
+  color: #3D3B38;
+  line-height: 1;
+}
+.margin-content .list .data .top .num {
+  font-weight: 500;
+  font-size: 28rpx;
+  color: #424242;
+  line-height: 1;
+}
+.margin-content .list .data .bot {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.margin-content .list .data .bot .left {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.margin-content .list .data .bot .left .font {
+  font-size: 20rpx;
+  color: #989898;
+  padding-right: 20rpx;
+}
+.margin-content .list .data .bot .left .time {
+  font-size: 20rpx;
+  color: #989898;
+}
+.margin-content .list .data .bot .right {
+  font-size: 20rpx;
+  color: #989898;
+}
+.margin-content .list .data_tixian {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.margin-content .list .data_tixian .bank .bank_name {
+  color: #3D3B38;
+  font-size: 24rpx;
+  line-height: 1;
+  padding-bottom: 10rpx;
+}
+.margin-content .list .data_tixian .bank .type {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.margin-content .list .data_tixian .bank .type .font {
+  font-size: 20rpx;
+  color: #989898;
+  padding-right: 20rpx;
+}
+.margin-content .list .data_tixian .bank .type .time {
+  font-size: 20rpx;
+  color: #989898;
+}
+.margin-content .list .data_tixian .tixian {
+  color: #FF6A30;
+  font-size: 28rpx;
+  margin: auto 0;
+  font-weight: 500;
+}
+

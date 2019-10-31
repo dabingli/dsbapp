@@ -1,0 +1,144 @@
+page {
+  background: #F6F6F5;
+}
+.recode {
+  border-top: 1px solid #f2f2f2;
+}
+.recode .bar {
+  margin-top: 11rpx;
+  padding: 24rpx 30rpx 30rpx;
+  background: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1rpx;
+}
+.recode .bar .screen_font {
+  color: #333333;
+  width: 50%;
+  text-align: center;
+  font-size: 28rpx;
+}
+.recode .bar .screen_font .icon-arrowdown {
+  margin-left: 14rpx;
+}
+.recode .deal {
+  padding: 34rpx 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.recode .deal .deal_money {
+  padding: 0 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 26rpx;
+}
+.recode .deal .deal_money .title {
+  color: #989898;
+  margin-right: 10rpx;
+}
+.recode .deal .deal_money .num {
+  color: #FF6A30;
+}
+.recode .deal .deal_num {
+  padding: 0 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.recode .deal .deal_num .title {
+  color: #989898;
+  margin-right: 16rpx;
+}
+.recode .deal .deal_num .num {
+  color: #FF6A30;
+}
+.recode .item {
+  padding: 33rpx 30rpx 26rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: #fff;
+  border-bottom: 1px solid #f2f2f2;
+}
+.recode .item .icon-shouyin {
+  font-size: 45rpx;
+  margin: auto 0;
+  color: #ACACAB;
+}
+.recode .item .data {
+  width: 100%;
+  margin-left: 30rpx;
+}
+.recode .item .data .up {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20rpx;
+}
+.recode .item .data .up .bank {
+  line-height: 1;
+  color: #474A4D;
+  font-size: 26rpx;
+  font-weight: 500;
+}
+.recode .item .data .up .num {
+  line-height: 1;
+  color: #474A4D;
+  font-size: 26rpx;
+}
+.recode .item .data .down {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.recode .item .data .down .time {
+  color: #989898;
+  font-size: 22rpx;
+}
+.recode .item .data .down .state {
+  font-size: 26rpx;
+  color: #989898;
+}
+.recode .item .data .down .type0 {
+  color: #989898;
+}
+.recode .item .data .down .type1 {
+  color: #FB9005;
+}
+.recode .item .data .down .type2 {
+  color: #2DC43E;
+}
+.recode .item .data .down .type3 {
+  color: #ff6a30;
+}
+.recode .item .data .down .type4 {
+  color: #EE0202;
+}
+.recode .item .data .down .type5 {
+  color: #B93BDD;
+}
+.recode .item .data .down .type6 {
+  color: #0596D9;
+}
+.recode .item .data .down .type7 {
+  color: #2457FE;
+}
+

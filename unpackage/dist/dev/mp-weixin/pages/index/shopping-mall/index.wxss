@@ -1,0 +1,124 @@
+page {
+  background: #F6F6F5;
+}
+.lunbo .swiper {
+  height: 421rpx;
+}
+.lunbo .swiper .swiper-item {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 100%;
+}
+.lunbo .swiper image {
+  width: 100%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.describe {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30rpx;
+  background: #fff;
+  border: 2rpx solid #f1f0f0;
+}
+.describe .title {
+  width: 70%;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  font-size: 26rpx;
+  color: #3D3B38;
+}
+.describe .pay {
+  font-size: 32rpx;
+  color: #F3632A;
+  font-weight: 500;
+  margin-bottom: 20rpx;
+}
+.activity {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 28rpx 30rpx;
+  background: #fff;
+  margin-bottom: 14rpx;
+  border-bottom: 1rpx solid #f1f0f0;
+}
+.activity .text {
+  font-size: 28rpx;
+  color: #3D3B38;
+  width: 10%;
+  margin-right: 33rpx;
+  padding-top: 4rpx;
+}
+.activity .uni-collapse {
+  width: 100%;
+}
+.des {
+  position: fixed;
+  right: 20rpx;
+  bottom: 400rpx;
+}
+.des .fab {
+  position: absolute;
+  border-radius: 50%;
+  right: 0;
+  top: 30rpx;
+  width: 120rpx;
+  height: 120rpx;
+}
+.des .title {
+  color: #323136;
+  font-size: 30rpx;
+  font-weight: bold;
+  padding: 40rpx 0;
+}
+.des .text {
+  font-size: 28rpx;
+  padding-bottom: 20rpx;
+}
+.img {
+  width: 100%;
+}
+.foot {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background: #fff;
+}
+.foot .btn {
+  margin: 16rpx 34rpx;
+  background: #FF6A30;
+  padding: 25rpx 70rpx;
+  font-size: 30rpx;
+  color: #fff;
+  border-radius: 39rpx;
+}
+.foot .add {
+  padding: 41rpx 20rpx 41rpx 10rpx;
+  line-height: 1;
+  margin: 0;
+  color: #3D3B38;
+  background: #fff;
+  font-size: 30rpx;
+}
+.foot .icongouwuche {
+  padding: 38rpx 0;
+}
+

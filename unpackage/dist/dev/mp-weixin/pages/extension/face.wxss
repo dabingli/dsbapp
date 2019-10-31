@@ -1,0 +1,140 @@
+page {
+  background: #F3F6FA;
+}
+.top {
+  margin-bottom: 10px;
+}
+.top .icon-zuojiantou {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  z-index: 99;
+  padding-top: 24px;
+  padding-left: 30rpx;
+  font-size: 20px;
+  background: #fff;
+}
+.top image {
+  width: 100%;
+  padding-top: 40rpx;
+  height: 380rpx;
+  background: #fff;
+}
+.register {
+  background: #fff;
+  padding: 20rpx 30rpx 93rpx;
+}
+.register .text {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 29rpx 0 27rpx 25rpx;
+  border-bottom: 2rpx solid #F3F6FA;
+}
+.register .text .shouji {
+  width: 30rpx;
+  height: 41rpx;
+  padding-top: 5rpx;
+}
+.register .text .suo {
+  width: 30rpx;
+  height: 32rpx;
+  padding-top: 10rpx;
+}
+.register .text .yzm {
+  width: 28rpx;
+  height: 28rpx;
+  padding-top: 14rpx;
+}
+.register .text .xiaji {
+  width: 32rpx;
+  height: 32rpx;
+  padding-top: 10rpx;
+}
+.register .text .font {
+  color: #474A4D;
+  font-size: 26rpx;
+  padding-left: 20rpx;
+  padding-top: 10rpx;
+}
+.register .text .input {
+  margin-left: 51rpx;
+  width: 80%;
+}
+.register .text .input_y {
+  margin-left: 51rpx;
+  width: 320rpx;
+  position: relative;
+}
+.register .text .my_num {
+  position: absolute;
+  right: 52rpx;
+  padding: 12rpx 25rpx 13rpx;
+  border-radius: 24px;
+  border: 2rpx solid #C3C4C5;
+  z-index: 99;
+  line-height: 1;
+}
+.register .text .my_num .blue {
+  color: #474A4D;
+  font-size: 24rpx;
+}
+.register .text .iconfont {
+  font-size: 30rpx;
+  padding: 0 30rpx;
+}
+.btn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #fff;
+  padding-bottom: 37rpx;
+}
+.btn .submit {
+  background: #FF6A30;
+  width: 100%;
+  margin: 0 30rpx;
+  color: #fff;
+  font-size: 38rpx;
+  padding: 24rpx 0 22rpx;
+  text-align: center;
+  border-radius: 12rpx;
+  line-height: 1;
+}
+.btn .submit[disabled]:not([type]) {
+  opacity: 0.8;
+}
+.input-placeholder {
+  font-size: 26rpx;
+  color: #C3C4C5;
+}
+@media screen and (min-width: 414px) and (min-height: 816px) {
+.top image {
+    height: 480rpx;
+}
+.register .text {
+    padding-top: 35rpx;
+}
+.register .text .input {
+    padding: 0 0 35rpx 28rpx;
+}
+}
+

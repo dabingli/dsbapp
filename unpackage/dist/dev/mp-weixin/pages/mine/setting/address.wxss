@@ -1,0 +1,83 @@
+page {
+  background: #F3F6FA;
+}
+.item {
+  margin-top: 10rpx;
+  background: #fff;
+  padding: 30rpx;
+}
+.item .adress {
+  color: #989898;
+  font-size: 26rpx;
+  padding: 20rpx 0;
+}
+.item .message {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.item .message .name,
+.item .message .mobile {
+  color: #474A4D;
+  font-size: 32rpx;
+  line-height: 1;
+  margin-right: 20rpx;
+}
+.item .message .state {
+  background: #D4D8DE;
+  color: #474A4D;
+  font-size: 24rpx;
+  padding: 4rpx 10rpx;
+  line-height: 1;
+  border-radius: 4rpx;
+}
+.item .operate {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.item .operate .icon-bianji {
+  margin-right: 13rpx;
+  font-size: 28rpx;
+}
+.item .operate .op-btn {
+  color: #474A4D;
+  margin: 0 0 0 40rpx;
+  padding: 0;
+  background: none;
+  font-size: 26rpx;
+}
+.btn {
+  position: fixed;
+  bottom: 80rpx;
+  left: 30rpx;
+  right: 30rpx;
+  z-index: 99;
+  background: #989898;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 23rpx;
+  border-radius: 12rpx;
+}
+.btn .icon-mui-icon-add {
+  font-size: 40rpx;
+  color: #fff;
+}
+.btn .btn_text {
+  font-size: 38rpx;
+  color: #fff;
+  margin-left: 18rpx;
+}
+

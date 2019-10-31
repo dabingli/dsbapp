@@ -1,0 +1,93 @@
+.top {
+  text-align: center;
+  color: #3D3B38;
+  font-size: 42rpx;
+  margin: 90rpx 0 75rpx;
+  font-weight: 500;
+}
+.input {
+  margin: 57rpx 65rpx 0;
+  background: #F7F7F7;
+  padding: 10rpx 30rpx;
+}
+.get_code {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.get_code .code {
+  margin: 57rpx 0 0 65rpx;
+  background: #F7F7F7;
+  padding: 10rpx 30rpx;
+  width: 53%;
+}
+.get_code .text {
+  font-size: 32rpx;
+  color: #FF6A30;
+  margin-top: 71rpx;
+  margin-left: 29rpx;
+}
+.get_code .text_r {
+  font-size: 26rpx;
+  color: #FF6A30;
+  margin-top: 71rpx;
+  margin-left: 29rpx;
+}
+.agreement {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 0 86rpx;
+  margin-top: 33rpx;
+}
+.agreement .font {
+  color: #3D3B38;
+  font-size: 26rpx;
+}
+.agreement .dian {
+  width: 30rpx;
+  height: 30rpx;
+  border-radius: 50%;
+  margin: auto 0;
+  background: #ffffff;
+  margin-right: 6rpx;
+  position: relative;
+  border: 4rpx solid #ff6a30;
+}
+.agreement .dian .dian_s {
+  position: absolute;
+  width: 15rpx;
+  height: 15rpx;
+  border-radius: 50%;
+  background: #ff6a30;
+  position: relative;
+  border: 4rpx solid #fff;
+  top: 5rpx;
+  bottom: 5rpx;
+  left: 5rpx;
+  right: 5rpx;
+}
+.btn {
+  position: fixed;
+  left: 76rpx;
+  right: 76rpx;
+  bottom: 156rpx;
+  background: #FF6A30;
+  color: #fff;
+  font-size: 28rpx;
+  padding: 25rpx 0;
+  text-align: center;
+  border-radius: 8rpx;
+}
+button[disabled]:not([type]) {
+  color: #fff;
+  background-color: #FF6A30;
+  opacity: 0.8;
+}
+

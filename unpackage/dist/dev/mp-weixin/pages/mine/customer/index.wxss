@@ -1,0 +1,90 @@
+page {
+  background: #F2F4F7;
+}
+.margin-content {
+  margin-top: 10rpx;
+}
+.item {
+  padding: 20rpx 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: #fff;
+  border-bottom: 2rpx solid #F2F4F7;
+}
+.item .icon-qq {
+  background: #558DF3;
+  color: #fff;
+  padding: 20rpx 26rpx;
+  border-radius: 6rpx;
+  font-size: 42rpx;
+}
+.item .icon-weixin {
+  background: #558DF3;
+  color: #fff;
+  padding: 22rpx 18rpx 12rpx 18rpx;
+  border-radius: 6rpx;
+  font-size: 60rpx;
+  line-height: 1;
+}
+.item .icon-dianhua {
+  background: #558DF3;
+  color: #fff;
+  padding: 20rpx 26rpx;
+  border-radius: 6rpx;
+  font-size: 42rpx;
+}
+.item .title {
+  padding-left: 35rpx;
+}
+.item .title .text {
+  font-size: 28rpx;
+  color: #474A4D;
+  padding-bottom: 19rpx;
+  padding-top: 11rpx;
+}
+.item .title .date {
+  font-size: 24rpx;
+  color: #989898;
+}
+.eject {
+  padding: 28rpx 30rpx 30rpx;
+}
+.eject .close {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.eject .close image {
+  width: 32rpx;
+  height: 32rpx;
+}
+.eject .contact {
+  text-align: center;
+}
+.eject .contact image {
+  width: 414rpx;
+  height: 380rpx;
+}
+.eject .eject_qq {
+  font-size: 28rpx;
+  color: #989898;
+  margin-bottom: 46rpx;
+  text-align: center;
+}
+.eject .btn button {
+  line-height: 1;
+  background: #549CFF;
+  margin: 0 54rpx;
+  color: #F8F9FF;
+  font-size: 32rpx;
+  padding: 20rpx;
+  border-radius: 68rpx;
+}
+

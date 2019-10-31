@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "完美还款",
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "mpvue-picker": "/components/mpvue-picker/mpvuePicker",
+    "mpvue-city-picker": "/components/mpvue-citypicker/mpvueCityPicker",
+    "number-box": "/components/uni-number-box/uni-number-box"
+  }
+}

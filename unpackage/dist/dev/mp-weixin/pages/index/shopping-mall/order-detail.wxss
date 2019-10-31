@@ -1,0 +1,316 @@
+page {
+  background: #F6F6F5;
+}
+.add_adress {
+  margin: 2rpx 0 11rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 34rpx 0;
+  background: #fff;
+}
+.add_adress .icon-tianjia {
+  color: #DEDBD4;
+  font-size: 40rpx;
+  margin-right: 13rpx;
+}
+.add_adress .add_text {
+  color: #5F5D59;
+  font-size: 24rpx;
+  margin: auto 0;
+}
+.item {
+  margin-top: 2rpx;
+  background: #fff;
+  padding: 20rpx 30rpx;
+  margin-bottom: 11rpx;
+}
+.item .adress {
+  color: #989898;
+  font-size: 26rpx;
+  padding: 20rpx 0 0;
+}
+.item .message {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.item .message .name,
+.item .message .mobile {
+  color: #474A4D;
+  font-size: 32rpx;
+  line-height: 1;
+  margin-right: 20rpx;
+}
+.item .message .state {
+  background: #D4D8DE;
+  color: #474A4D;
+  font-size: 24rpx;
+  padding: 4rpx 10rpx;
+  line-height: 1;
+  border-radius: 4rpx;
+}
+.item .operate {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.item .operate .icon-bianji {
+  margin-right: 13rpx;
+  font-size: 28rpx;
+}
+.item .operate .op-btn {
+  color: #474A4D;
+  margin: 0 0 0 40rpx;
+  padding: 0;
+  background: none;
+  font-size: 26rpx;
+}
+.information {
+  padding: 26rpx 30rpx 29rpx;
+  font-size: 26rpx;
+  color: #474A4D;
+  background: #fff;
+  border: 2rpx solid #F1F0F0;
+}
+.commodity {
+  padding: 0 30rpx;
+  background: #fff;
+}
+.commodity .data {
+  border-bottom: 2rpx solid #F1F0F0;
+  padding: 39rpx 0 31rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.commodity .data .message {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.commodity .data .message .img image {
+  width: 146rpx;
+  height: 152rpx;
+}
+.commodity .data .message .describe {
+  margin-left: 23rpx;
+}
+.commodity .data .message .describe .title {
+  width: 363rpx;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  padding: 9rpx 0 40rpx;
+  line-height: 1;
+  font-size: 26rpx;
+  color: #3D3B38;
+}
+.commodity .data .message .describe .price {
+  font-weight: 500;
+  font-size: 32rpx;
+  color: #F3632A;
+}
+.commodity .data .num {
+  color: #ACACAB;
+  font-size: 26rpx;
+  padding-top: 11rpx;
+}
+.all {
+  border-bottom: 2rpx solid #F1F0F0;
+  background: #fff;
+  padding: 22rpx 30rpx 25rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-bottom: 10rpx;
+}
+.all .all_text {
+  color: #ACACAB;
+  font-size: 30rpx;
+}
+.all .all_num {
+  color: #F3632A;
+  font-size: 30rpx;
+}
+.delivery {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 25rpx 30rpx;
+  border-bottom: 2rpx solid #F1F0F0;
+  background: #fff;
+}
+.delivery .title {
+  color: #ACACAB;
+  font-size: 24rpx;
+}
+.delivery .text {
+  color: #3D3B38;
+  font-size: 24rpx;
+}
+.freight {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 25rpx 30rpx;
+  background: #fff;
+  margin-bottom: 10rpx;
+}
+.freight .title {
+  color: #ACACAB;
+  font-size: 24rpx;
+}
+.freight .text {
+  color: #3D3B38;
+  font-size: 24rpx;
+}
+.remarks {
+  position: relative;
+  background: #fff;
+  margin-top: 10rpx;
+  margin-bottom: 40rpx;
+}
+.remarks textarea {
+  width: 100%;
+  padding: 20rpx 30rpx;
+  height: 180rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.remarks .max-length {
+  position: absolute;
+  bottom: 30rpx;
+  right: 30rpx;
+  color: #D5D8DD;
+}
+.btn {
+  border-top: 2rpx solid #D5D8DD;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  bottom: 0;
+  width: 100%;
+  background: #fff;
+  padding: 16rpx 34rpx 16rpx 10rpx;
+  position: fixed;
+  z-index: 99;
+}
+.btn .text {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto 0;
+  padding: 0 120rpx;
+}
+.btn .text .title {
+  color: #ACACAB;
+  font: 30rpx;
+}
+.btn .text .data {
+  font-size: 30rpx;
+  color: #F3632A;
+}
+.btn button {
+  padding: 25rpx 70rpx;
+  background: #FF6A30;
+  color: #fff;
+  font-size: 30rpx;
+  border-radius: 39rpx;
+}
+.show_title {
+  padding: 20rpx 30rpx;
+}
+.show_item {
+  padding: 0 30rpx;
+  border: 2rpx solid #D4D8DE;
+}
+.show_item .header-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 30rpx 0;
+}
+.show_item .header-title .icon-wchat-pay {
+  color: #3fb232;
+  font-size: 60rpx;
+  line-height: 1;
+  margin-right: 20rpx;
+  margin-left: 10rpx;
+}
+.show_item .header-title .icon-alipay {
+  color: #009ff3;
+  font-size: 60rpx;
+  line-height: 1;
+  margin-right: 20rpx;
+  margin-left: 10rpx;
+}
+.show_item .header-title .text {
+  margin: auto 0;
+}
+.show_item .header-title .check {
+  margin: auto 0;
+}
+.pament {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.pament .cancel {
+  width: 35%;
+  background: #fff;
+  color: #3D3B38;
+  line-height: 1;
+  padding: 25rpx 0;
+  font-size: 28rpx;
+}
+.pament .confirm {
+  width: 65%;
+  background: #FF6A30;
+  color: #fff;
+  line-height: 1;
+  padding: 25rpx 0;
+  font-size: 28rpx;
+}
+radio-group label,
+checkbox-group label {
+  padding-right: 0;
+}
+

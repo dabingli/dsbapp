@@ -1,0 +1,179 @@
+page {
+  background: #F6F6F5;
+}
+.card {
+  margin: 30rpx;
+  background: url(https://kuailm.oss-cn-shenzhen.aliyuncs.com/quick_repayment.png) no-repeat;
+  background-size: 100% 100%;
+}
+.card .up {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 22rpx 20rpx 22rpx 26rpx;
+}
+.card .up .img {
+  line-height: 1;
+}
+.card .up .img image {
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 50%;
+  padding: 10rpx;
+  background: #fff;
+}
+.card .up .font {
+  width: 100%;
+  margin-left: 14rpx;
+}
+.card .up .font .bank {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 5rpx 0 14rpx;
+}
+.card .up .font .bank .name {
+  font-size: 32rpx;
+  font-weight: 500;
+  color: #6D3B14;
+  line-height: 1;
+}
+.card .up .font .bank .num {
+  font-size: 32rpx;
+  font-weight: 500;
+  color: #6D3B14;
+  line-height: 1;
+}
+.card .up .font .bill {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.card .up .font .bill .last {
+  font-size: 24rpx;
+  color: #7B461C;
+}
+.card .down {
+  padding: 30rpx 20rpx 70rpx 26rpx;
+}
+.card .down .day {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 13rpx;
+}
+.card .down .day .bill_day {
+  font-size: 24rpx;
+  color: #7B461C;
+  line-height: 1;
+}
+.card .down .day .repayment_day {
+  font-size: 24rpx;
+  color: #7B461C;
+  line-height: 1;
+}
+.card .down .repayment {
+  font-size: 22rpx;
+  color: #7B461C;
+  line-height: 1;
+  margin-bottom: 34rpx;
+}
+.card .down .subscribe {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.card .down .subscribe .button {
+  background: #B7B3B0;
+  border-radius: 23rpx;
+  padding: 11rpx 48rpx;
+  color: #fff;
+  font-size: 26rpx;
+  margin: 0 37rpx 0 63rpx;
+}
+.mask {
+  position: absolute;
+  z-index: 999;
+  background: rgba(0, 0, 0, 0.7);
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.mask .popup {
+  background: #fff;
+  border-radius: 10rpx;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 80%;
+  overflow: hidden;
+}
+.mask .popup input {
+  width: 100%;
+  padding: 20rpx 0;
+  border-bottom: 1px solid #f2f2f2;
+  font-size: 32rpx;
+}
+.mask .popup .title {
+  padding: 20rpx 0;
+  color: #333;
+  font-size: 32rpx;
+  border-bottom: 1px solid #f2f2f2;
+}
+.mask .popup .op {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.mask .popup .op button {
+  width: 50%;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 32rpx;
+}
+.mask .popup .op button:first-child {
+  border-right: 1px solid #ccc;
+}
+.card-active {
+  background: url(https://kuailm.oss-cn-shenzhen.aliyuncs.com/accurate.png) no-repeat;
+  background-size: 100% 100%;
+}
+.btn {
+  background: #FF6A30;
+  padding: 24rpx 0;
+  text-align: center;
+  position: fixed;
+  z-index: 99;
+  left: 30rpx;
+  right: 30rpx;
+  bottom: 0;
+  color: #fff;
+  font-size: 38rpx;
+  line-height: 1;
+  margin-bottom: 80rpx;
+  border-radius: 12rpx;
+}
+

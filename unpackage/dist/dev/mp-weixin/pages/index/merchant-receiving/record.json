@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "收银记录",
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "action": "/components/action/action"
+  }
+}

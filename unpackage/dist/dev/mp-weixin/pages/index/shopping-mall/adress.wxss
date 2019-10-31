@@ -1,0 +1,79 @@
+page {
+  background: #F6F6F5;
+}
+.eidt-address {
+  margin-top: 10rpx;
+}
+.item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: #fff;
+}
+.item .text {
+  width: 18%;
+  line-height: 1;
+  padding: 40rpx 0;
+  padding-left: 32rpx;
+}
+.item .input {
+  line-height: 1;
+  padding: 28rpx 0;
+}
+.item .input_pick {
+  line-height: 1;
+  padding: 44rpx 0;
+  color: #D5D8DD;
+}
+.item_adress {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: #fff;
+  border-bottom: 2rpx solid #EEEEEE;
+  margin-bottom: 10rpx;
+}
+.item_adress .text {
+  width: 18%;
+  line-height: 1;
+  padding: 40rpx 0;
+  padding-left: 32rpx;
+}
+.item_adress .textatea {
+  background: #fff;
+  padding-top: 40rpx;
+  height: 220rpx;
+}
+.default {
+  padding: 36rpx 30rpx;
+  background: #fff;
+  line-height: 1;
+}
+.default label {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.default label checkbox {
+  width: 38rpx;
+  height: 38rpx;
+  margin-right: 18rpx;
+}
+.default label .default_adress {
+  padding-top: 2rpx;
+}
+.btn {
+  position: fixed;
+  bottom: 80rpx;
+  left: 30rpx;
+  right: 30rpx;
+  background: #FF6A30;
+  border-radius: 12rpx;
+  padding: 24rpx 0;
+  font-size: 38rpx;
+  color: #fff;
+}
+

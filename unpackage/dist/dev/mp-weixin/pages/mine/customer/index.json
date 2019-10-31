@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "客服中心",
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "neil-modals": "/components/neil-modals/neil-modals"
+  }
+}

@@ -1,0 +1,1 @@
+<view><view class="top">用户注册使用协议</view><rich-text nodes="{{text.xieyi}}"></rich-text></view>

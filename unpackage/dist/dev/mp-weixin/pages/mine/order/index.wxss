@@ -1,0 +1,150 @@
+page {
+  background: #F3F6FA;
+}
+.message-head {
+  border-top: 11rpx solid #F3F6FA;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #fff;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  z-index: 99;
+}
+.message-head .item-left {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+.message-head .head-item {
+  margin: 0 27rpx;
+  padding: 24rpx 4rpx;
+  width: 20%;
+  text-align: center;
+}
+.message-head .active-item {
+  border-bottom: 6rpx solid #FF6A30;
+  color: #FF6A30;
+}
+.top {
+  padding: 90rpx 0 40rpx;
+}
+.top .push-message .message-list {
+  margin-bottom: 10rpx;
+}
+.top .push-message .message-list .message-item {
+  position: relative;
+  margin-top: 15px;
+  color: #666;
+  background: #fff;
+}
+.top .push-message .message-list .message-item .title {
+  font-size: 26rpx;
+  color: #474A4D;
+  padding: 28rpx 0;
+  margin: 0 30rpx;
+  border-bottom: 2rpx solid #F3F6FA;
+}
+.top .push-message .message-list .message-item .content {
+  padding: 28rpx 0;
+  margin: 0 30rpx;
+  color: #ccc;
+  font-size: 12px;
+  padding: 29rpx 0;
+  border-bottom: 2rpx solid #F3F6FA;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.top .push-message .message-list .message-item .content .img {
+  width: 142rpx;
+  height: 132rpx;
+}
+.top .push-message .message-list .message-item .content .font {
+  width: 100%;
+  margin-left: 27rpx;
+  padding: 9rpx 0;
+}
+.top .push-message .message-list .message-item .content .font .text {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 28rpx;
+  color: #474A4D;
+  padding-bottom: 40rpx;
+}
+.top .push-message .message-list .message-item .content .font .text .machine {
+  padding-right: 20rpx;
+  color: #3D3B38;
+  font-size: 26rpx;
+}
+.top .push-message .message-list .message-item .content .font .text .num {
+  font-size: 26rpx;
+  color: #ACACAB;
+}
+.top .push-message .message-list .message-item .content .font .coupon {
+  float: left;
+  color: #F3632A;
+  font-size: 32rpx;
+  line-height: 1;
+}
+.top .push-message .message-list .message-item .content .font .clear {
+  clear: both;
+}
+.top .push-message .message-list .message-item .btn {
+  padding: 18rpx 0;
+  margin: 0 30rpx;
+  color: 26rpx;
+  color: #A9ACB1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.top .push-message .message-list .message-item .btn .btn_text {
+  padding: 12rpx 0;
+  color: #ACACAB;
+  font-size: 26rpx;
+}
+.top .push-message .message-list .message-item .btn .button {
+  border-radius: 6rpx;
+  background: #FF6A30;
+  color: #fff;
+  font-size: 26rpx;
+  padding: 12rpx 14rpx;
+}
+.top .push-message .message-list .message-item .btn .logistics {
+  color: #474A4D;
+  font-size: 26rpx;
+  padding: 12rpx 0;
+}
+.top .push-message .message-list .message-item .time {
+  margin-top: 4px;
+  font-size: 12px;
+}
+

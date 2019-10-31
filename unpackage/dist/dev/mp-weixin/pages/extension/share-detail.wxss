@@ -1,0 +1,66 @@
+page {
+  padding-bottom: 0;
+  height: 100%;
+}
+.share-detail {
+  height: 100%;
+}
+.share-detail image {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.share-detail .popup {
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  z-index: 99;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.share-detail .toast {
+  position: fixed;
+  bottom: -100px;
+  width: 100%;
+  z-index: 999;
+  padding: 30rpx;
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.share-detail .toast .title {
+  text-align: center;
+  color: #fff;
+}
+.share-detail .toast .title text {
+  margin: 0 30rpx;
+}
+.share-detail .toast .content {
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.share-detail .toast .content .item {
+  text-align: center;
+}
+.share-detail .toast .content .item view {
+  color: #fff;
+}
+.share-detail .toast .content .item .iconfont {
+  font-size: 40rpx;
+  padding-top: 20rpx;
+}
+.share-detail .toast .content .item .text {
+  padding-top: 20rpx;
+}
+

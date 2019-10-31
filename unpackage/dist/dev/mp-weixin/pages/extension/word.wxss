@@ -1,0 +1,86 @@
+page {
+  background: #f5f5f5;
+  height: 100%;
+}
+.central-document {
+  margin: 0 15px;
+}
+.central-document .document-lsit .document-item {
+  -webkit-box-shadow: 0 5px 10px #f2f2f2;
+          box-shadow: 0 5px 10px #f2f2f2;
+  margin-top: 15px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px;
+}
+.central-document .document-lsit .document-item .document-text {
+  padding-left: 15px;
+  font-weight: bold;
+  position: relative;
+}
+.central-document .document-lsit .document-item .document-text::before {
+  content: "";
+  width: 2px;
+  height: 20px;
+  background: #f9524a;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.central-document .document-lsit .document-item .document-text .text-item {
+  word-break: break-all;
+  line-height: 24px;
+}
+.central-document .document-lsit .document-item .document-text .desc {
+  color: #888;
+  font-size: 24rpx;
+  font-weight: normal;
+}
+.central-document .document-lsit .document-item .document-img {
+  margin: 10px 15px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.central-document .document-lsit .document-item .document-img .img-item {
+  border: 1px solid #d9d9dd;
+  margin-right: 10px;
+  width: 60px;
+  height: 100px;
+}
+.central-document .document-lsit .document-item .document-img .img-item image {
+  width: 100%;
+  height: 100%;
+}
+.central-document .document-lsit .document-item .document-operation {
+  margin-top: 15px;
+  text-align: right;
+  position: relative;
+}
+.central-document .document-lsit .document-item .document-operation .more {
+  font-size: 10px;
+  text-align: center;
+  height: 20px;
+  line-height: 20px;
+  color: #fff;
+  display: inline-block;
+  width: 30px;
+  padding: 0 5px;
+  background: #e2e0e1;
+  border-radius: 5px;
+}
+.central-document .document-lsit .document-item .document-operation .more-modal {
+  padding: 7px 5px;
+  background: #f94f50;
+  color: #fff;
+  /* width: 60px;
+					width: 160px; */
+  border-radius: 5px;
+  position: absolute;
+  top: -5px;
+  z-index: 99;
+  right: 44px;
+  font-size: 12px;
+}
+

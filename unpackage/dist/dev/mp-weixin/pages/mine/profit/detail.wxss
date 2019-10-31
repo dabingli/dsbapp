@@ -1,0 +1,55 @@
+page {
+  background: #F3F6FA;
+}
+.bill-detail .header {
+  text-align: center;
+  padding: 70rpx 0;
+}
+.bill-detail .header .circle {
+  width: 120rpx;
+  height: 120rpx;
+  line-height: 120rpx;
+  border-radius: 50%;
+  margin: 0 auto;
+  background: #FF6A30;
+}
+.bill-detail .header .gray {
+  background: #A8B5C6;
+}
+.bill-detail .header .iconfont {
+  font-size: 50rpx;
+  color: #fff;
+}
+.bill-detail .header .status {
+  font-size: 34rpx;
+  margin-top: 40rpx;
+}
+.bill-detail .list {
+  background: #fff;
+}
+.bill-detail .list .flex-class {
+  border-bottom: 1px solid #f2f2f2;
+  padding: 0 30rpx;
+}
+.bill-detail .list .flex-class > view {
+  line-height: 2.5;
+}
+.bill-detail .list .flex-class .status {
+  color: #FF6A30;
+}
+.bill-detail .list .bank {
+  text-align: right;
+}
+.bill-detail .list .bank > view {
+  line-height: 3;
+}
+.bill-detail .list .bank-sn .bank {
+  padding: 10rpx 0;
+}
+.bill-detail .list .bank-sn .bank > view {
+  line-height: 1.8;
+}
+.bill-detail .item-title {
+  color: #A9ACB1;
+}
+

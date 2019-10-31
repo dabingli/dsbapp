@@ -1,0 +1,587 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/extension/index",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		//登录
+		{
+			"path": "pages/login/login",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		//注册
+		{
+			"path": "pages/login/register",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		//忘记密码
+		{
+			"path": "pages/login/forget",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		//注册协议
+		{
+			"path": "pages/login/agreement",
+			"style": {
+				"navigationBarTitleText": "协议",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/mine/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		}
+		//卡管家
+	    ,{
+            "path" : "pages/index/card-keeper/index",
+            "style" : {
+				"navigationBarTitleText": "卡管家",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+        }
+		,{
+		    "path" : "pages/index/card-keeper/accurate",
+		    "style" : {
+				"navigationBarTitleText": "精准还款",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"fontSrc": "/static/iconfont.ttf",
+							"text": "\ue602",
+							"width": "40px",
+							"fontSize": "24px",
+							"color": "#fff"
+						}]
+					}
+				}
+			}
+		}
+		,{
+		    "path" : "pages/index/card-keeper/quick_repayment",
+		    "style" : {
+				"navigationBarTitleText": "快速还款",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"fontSrc": "/static/iconfont.ttf",
+							"text": "\ue602",
+							"width": "40px",
+							"fontSize": "24px",
+							"color": "#fff"
+						}]
+					}
+				}
+			}
+		}
+		,{
+		    "path" : "pages/index/card-keeper/plan-list",
+		    "style" : {
+				"navigationBarTitleText": "计划列表",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		}
+		,{
+		    "path" : "pages/index/card-keeper/transaction-detail",
+		    "style" : {
+				"navigationBarTitleText": "交易详情",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "终止执行",
+							"fontSize": "14",
+							"width": "auto"
+						}]
+					}
+				}
+			}
+		}
+		,{
+		    "path" : "pages/index/card-keeper/booking-repayment",
+		    "style" : {
+				"navigationBarTitleText": "极速还款",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path" : "pages/index/card-keeper/perfect-book",
+			"style" : {
+			"navigationBarTitleText": "完美还款",
+			"navigationBarBackgroundColor": "#ffffff",
+			"navigationBarTextStyle": "black"
+		}
+	}
+		//商品
+		,{
+		    "path" : "pages/index/shopping-mall/index",
+		    "style" : {
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"//透明渐变导航栏
+					}
+				}
+			}
+		}
+		,{
+		    "path" : "pages/index/shopping-mall/adress",
+		    "style" : {
+				"navigationBarTitleText": "添加收货地址",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		}
+		,{
+		    "path" : "pages/index/shopping-mall/shop-card",
+		    "style" : {
+				"navigationBarTitleText": "购物车",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "删除",
+							"fontSize": "14",
+							"width": "auto"
+						}]
+					}
+				}
+			}
+		}
+		,{
+		    "path" : "pages/index/shopping-mall/order-detail",
+		    "style" : {
+				"navigationBarTitleText": "订单详情",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		}
+		//商户收银
+		,{
+		    "path" : "pages/index/merchant-receiving/index",
+		    "style" : {
+				"navigationBarTitleText": "商户收银",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "收银记录",
+							"fontSize": "14",
+							"width": "auto"
+						}]
+					}
+				}
+			}
+		}
+		// 收银记录
+		,{
+		    "path" : "pages/index/merchant-receiving/record",
+		    "style" : {
+				"navigationBarTitleText": "收银记录",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		}
+		//个人信息
+		,{
+		    "path" : "pages/mine/information/index",
+		    "style" : {
+				"navigationBarTitleText": "个人信息",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		}
+		,{
+		    "path" : "pages/mine/information/real-name",
+		    "style" : {
+				"navigationBarTitleText": "实名认证",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		}
+		//我的交易
+		,{
+		    "path" : "pages/mine/machine/index",
+		    "style" : {
+				"navigationBarTitleText": "我的交易",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 50
+			}
+		}
+		//我的盟友
+		,{
+		    "path" : "pages/mine/ally/index",
+		    "style" : {
+				"navigationBarTitleText": "我的盟友",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		}
+		,{
+		    "path" : "pages/mine/ally/message",
+		    "style" : {
+				"navigationBarTitleText": "盟友信息",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		}
+		//我的订单
+		,{
+		    "path" : "pages/mine/order/index",
+		    "style" : {
+				"navigationBarTitleText": "我的订单",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		}
+		//订单详情
+		,{
+		    "path" : "pages/mine/order/order-detail",
+		    "style" : {
+				"navigationBarTitleText": "订单详情",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		}
+		//我的收益
+		,{
+		    "path" : "pages/mine/profit/index",
+		    "style" : {
+				"navigationBarTitleText": "我的收益",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		}
+		//我的收益
+		,{
+		    "path" : "pages/mine/profit/withdraw",
+		    "style" : {
+				"navigationBarTitleText": "提现",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		}
+		//我的银行卡
+		,{
+		    "path" : "pages/mine/bank-card/index",
+		    "style" : {
+				"navigationBarTitleText": "我的银行卡",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		}
+		//客服中心
+		,{
+		    "path" : "pages/mine/customer/index",
+		    "style" : {
+				"navigationBarTitleText": "客服中心",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		// 设置
+		{
+		    "path" : "pages/mine/setting/index",
+		    "style" : {
+				"navigationBarTitleText": "设置",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		// 验证码
+		{
+		    "path" : "pages/mine/setting/code",
+		    "style" : {
+				"navigationBarTitleText": "验证码",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		// 收货地址
+		{
+		    "path" : "pages/mine/setting/address",
+		    "style" : {
+				"navigationBarTitleText": "收货地址",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		// 收货地址
+		{
+		    "path" : "pages/mine/setting/edit-address",
+		    "style" : {
+				"navigationBarTitleText": "收货地址",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 50
+			}
+		},
+		// 设置新登录密码
+		{
+		    "path" : "pages/mine/setting/new-password",
+		    "style" : {
+				"navigationBarTitleText": "设置新密码",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		// 设置新支付密码
+		{
+		    "path" : "pages/mine/setting/new-payword",
+		    "style" : {
+				"navigationBarTitleText": "支付密码",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		// webview
+		{
+		    "path" : "pages/webview/webview",
+		    "style" : {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		// 获取分享列表
+		{
+		    "path" : "pages/extension/share",
+		    "style" : {
+				"navigationBarTitleText": "分享",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "下一步",
+							"fontSize": "14",
+							"width": "auto"
+						}]
+					}
+				}
+				
+			}
+		},
+		// 分享详情
+		{
+		    "path" : "pages/extension/share-detail",
+		    "style" : {
+				"navigationBarTitleText": "分享",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"type": "menu"
+						}]
+					}
+				}
+			}
+		},
+		// 面对面注册
+		{
+		    "path" : "pages/extension/face",
+		    "style" : {
+				"navigationBarTitleText": "面对面注册",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		// 文案宣传
+		{
+		    "path" : "pages/extension/word",
+		    "style" : {
+				"navigationBarTitleText": "文案宣传",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		// 文案宣传详情
+		{
+				"path" : "pages/extension/detail",
+				"style" : {
+				"navigationBarTitleText": "详情",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		// 系统公告
+		{
+		    "path" : "pages/mine/sys-message/index",
+		    "style" : {
+				"navigationBarTitleText": "系统公告",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		// 系统公告详情
+		{
+				"path" : "pages/mine/sys-message/detail",
+				"style" : {
+				"navigationBarTitleText": "详情",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		// 更换储蓄卡
+		{
+				"path" : "pages/mine/bank-card/change-bank",
+				"style" : {
+				"navigationBarTitleText": "更换储蓄卡",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		// 绑定信用卡
+		{
+				"path" : "pages/mine/bank-card/add-credit-card",
+				"style" : {
+				"navigationBarTitleText": "绑定信用卡",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		// 付费提示
+		{
+				"path" : "pages/tips/index",
+				"style" : {
+				"navigationBarTitleText": "付费提示",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		// 编辑信用卡
+		{
+				"path" : "pages/mine/bank-card/edit-credit-card",
+				"style" : {
+				"navigationBarTitleText": "编辑信用卡",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		// 获取更改信用卡列表
+		{
+				"path" : "pages/index/merchant-receiving/choose-card",
+				"style" : {
+				"navigationBarTitleText": "选择信用卡",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		// 收银台订单详情
+		{
+			"path" : "pages/index/merchant-receiving/order-detail",
+			"style" : {
+				"navigationBarTitleText": "订单详情",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		// 银联收款
+		{
+			"path" : "pages/index/merchant-receiving/pay",
+			"style" : {
+				"navigationBarTitleText": "银联收款",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		// 收银记录
+		{
+			"path" : "pages/index/merchant-receiving/pay-status",
+			"style" : {
+				"navigationBarTitleText": "收银记录",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		// 收益详情
+		{
+			"path" : "pages/mine/profit/detail",
+			"style" : {
+				"navigationBarTitleText": "详情",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		}
+        ,{
+            "path" : "pages/mine/updata/index",
+            "style" : {
+				"navigationBarTitleText": "我的等级",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#CBCBCB",
+		"selectedColor": "#3D3B38",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/index.png",
+				"selectedIconPath": "static/index_sel.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/extension/index",
+				"iconPath": "static/extension.png",
+				"selectedIconPath": "static/extension_sel.png",
+				"text": "推广"
+			},
+			{
+				"pagePath": "pages/mine/index",
+				"iconPath": "static/mine.png",
+				"selectedIconPath": "static/mine_sel.png",
+				"text": "我的"
+			}
+		]
+	}
+}
